@@ -1,4 +1,4 @@
->Soru 1: Bir sayının pozitif, negatif veya sıfır olduğunu kontrol eden programı tasarlayınız.
+### Soru 1: Bir sayının pozitif, negatif veya sıfır olduğunu kontrol eden programı tasarlayınız.
 
 ```java
 int sayi = 10;
@@ -13,7 +13,7 @@ if (sayi > 0) {
 
 ```
 
->Soru 2: Kullanıcının girdiği notun harf notuna dönüştüren programı tasarlayınız
+### Soru 2: Kullanıcının girdiği notun harf notuna dönüştüren programı tasarlayınız
 
 
 ```java
@@ -36,7 +36,7 @@ if (not >= 90) {
 }
 ```
 
->Soru 3: Klavyeden girilen 2 sayı ve işlem (+, - , *, / )'e göre hesaplama yapan uygulama tasarlayınız. ( if-else if yapısı ile )
+### Soru 3: Klavyeden girilen 2 sayı ve işlem (+, - , *, / )'e göre hesaplama yapan uygulama tasarlayınız. ( if-else if yapısı ile )
 
 ```java
 import java.util.Scanner;
@@ -75,7 +75,7 @@ public class HesapMakinesi {
 
 ```
 
->Soru 4: Klavyeden girilen 2 sayı ve işlem (+, - , *, / )'e göre hesaplama yapan uygulama tasarlayınız. (switch case yapısı ile )
+### Soru 4: Klavyeden girilen 2 sayı ve işlem (+, - , *, / )'e göre hesaplama yapan uygulama tasarlayınız. (switch case yapısı ile )
 
 ```java
 import java.util.Scanner;
@@ -118,7 +118,7 @@ public class HesapMakinesi {
 }
 
 ```
-## Soru 5: Klavyeden girilen kullanıcı adı ve şifreye göre doğruysa giriş başarılı yanlışsa giriş başarısız yazdıran programı tasarlayınız. (kullanıcı adı: Admin şifre:sfr1357 olsun)
+### Soru 5: Klavyeden girilen kullanıcı adı ve şifreye göre doğruysa giriş başarılı yanlışsa giriş başarısız yazdıran programı tasarlayınız. (kullanıcı adı: Admin şifre:sfr1357 olsun)
 
 
 
