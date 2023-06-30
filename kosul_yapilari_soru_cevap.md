@@ -12,6 +12,7 @@ if (sayi > 0) {
 }
 
 ```
+
 >Soru 2: Kullanıcının girdiği notun harf notuna dönüştüren programı tasarlayınız
 
 
@@ -33,7 +34,7 @@ if (not >= 90) {
 } else {
     System.out.println("F");
 }
-
+```
 
 >Soru 3: Klavyeden girilen 2 sayı ve işlem (+, - , *, / )'e göre hesaplama yapan uygulama tasarlayınız. ( if-else if yapısı ile )
 
