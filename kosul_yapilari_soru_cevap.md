@@ -144,3 +144,52 @@ public class GirisProgrami {
 }
 
 ```
+
+### Soru 6: Klavyeden girilen 3 sayıyı büyükten küçüğe sıralayan programı tasarlayınız.
+
+
+
+
+```java
+import java.util.Scanner;
+
+public class SayiSiralama {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("1. Sayıyı girin: ");
+        int sayi1 = scanner.nextInt();
+
+        System.out.print("2. Sayıyı girin: ");
+        int sayi2 = scanner.nextInt();
+
+        System.out.print("3. Sayıyı girin: ");
+        int sayi3 = scanner.nextInt();
+
+        int temp;
+
+        if (sayi1 < sayi2) {
+            temp = sayi1;
+            sayi1 = sayi2;
+            sayi2 = temp;
+        }
+
+        if (sayi1 < sayi3) {
+            temp = sayi1;
+            sayi1 = sayi3;
+            sayi3 = temp;
+        }
+
+        if (sayi2 < sayi3) {
+            temp = sayi2;
+            sayi2 = sayi3;
+            sayi3 = temp;
+        }
+
+        System.out.println("Sıralama: " + sayi1 + " > " + sayi2 + " > " + sayi3);
+    }
+}
+
+
+```
+
