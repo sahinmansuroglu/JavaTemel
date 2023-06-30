@@ -118,7 +118,29 @@ public class HesapMakinesi {
 }
 
 ```
+##Soru 5: Klavyeden girilen kullanıcı adı ve şifreye göre doğruysa giriş başarılı yanlışsa giriş başarısız yazdıran programı tasarlayınız. (kullanıcı adı: Admin şifre:sfr1357 olsun)
+
+
 
 ```java
+import java.util.Scanner;
+
+public class GirisProgrami {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Kullanıcı Adı: ");
+        String kullaniciAdi = scanner.nextLine();
+
+        System.out.print("Şifre: ");
+        String sifre = scanner.nextLine();
+
+        if (kullaniciAdi.equals("Admin") && sifre.equals("sfr1357")) {
+            System.out.println("Giriş Başarılı!");
+        } else {
+            System.out.println("Giriş Başarısız!");
+        }
+    }
+}
 
 ```
