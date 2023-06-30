@@ -193,3 +193,39 @@ public class SayiSiralama {
 
 ```
 
+
+### Soru 7: Klavyeden girilen 3 basamaklı bir sayının palindrom sayı olup olmadığını kontrol eden programı tasarlayınız
+
+
+```java
+
+import java.util.Scanner;
+
+public class PalindromKontrol {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Üç basamaklı bir sayı girin: ");
+        int sayi = scanner.nextInt();
+
+        // Sayının basamaklarını elde etmek için mod alma ve bölme işlemleri kullanılır
+        int birlerBasamagi = sayi % 10;
+        int onlarBasamagi = (sayi / 10) % 10;
+        int yuzlerBasamagi = sayi / 100;
+
+        // Basamakları ters çevirip yeni bir sayı oluşturulur
+        int tersSayi = birlerBasamagi * 100 + onlarBasamagi * 10 + yuzlerBasamagi;
+
+        // Orijinal sayı ile ters çevrilmiş sayı karşılaştırılır
+        if (sayi == tersSayi) {
+            System.out.println("Girilen sayı palindrom bir sayıdır.");
+        } else {
+            System.out.println("Girilen sayı palindrom bir sayı değildir.");
+        }
+    }
+}
+
+
+```
+
+
