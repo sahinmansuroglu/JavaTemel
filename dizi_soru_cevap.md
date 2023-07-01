@@ -164,8 +164,4 @@ public class Program {
 }
 ```
 
-###  Soru 1:
 
-```java
-
-```
