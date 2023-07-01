@@ -5,10 +5,15 @@
 ```
 
 ###  Soru 1:  int tipinde 20 elemanlı bir dizi oluşturarak aşağıda istenilenleri bu diziyi kullanarak tasarlayınız.
->Dizinini elemanlarını Random sınıfını kullanarak 0 ile 100 arasında rastgele değer ile doldurunuz. 
->Dizinini elemanlarını ekrana yan yana yazdırınız. 
+
+>Dizinini elemanlarını Random sınıfını kullanarak 0 ile 100 arasında rastgele değer ile doldurunuz.
+
+>Dizinini elemanlarını ekrana yan yana yazdırınız.
+
 >Dizi içerisindeki sayıların toplamını ve ortalamasını hesaplatınız.
->Dizi içerisindeki tek sayıları ve çift sayıları ayrı ayrı yan yana yazdırınız. 
+
+>Dizi içerisindeki tek sayıları ve çift sayıları ayrı ayrı yan yana yazdırınız.
+
 >Dizi içerisinde kaç adet tek sayı kaç adet çift sayı bulunmaktadır hesaplatıp ekrana yazdırınız.
 
 
