@@ -83,7 +83,7 @@ System.out.println();
 
 ```
 
-###  Soru 1:  int tipinde 20 elemanlı bir dizi oluşturarak aşağıda istenilenleri bu diziyi kullanarak tasarlayınız.
+###  Soru 6:  int tipinde 20 elemanlı bir dizi oluşturarak aşağıda istenilenleri bu diziyi kullanarak tasarlayınız.
 
 >Dizinini elemanlarını Random sınıfını kullanarak 0 ile 100 arasında rastgele değer ile doldurunuz.
 
